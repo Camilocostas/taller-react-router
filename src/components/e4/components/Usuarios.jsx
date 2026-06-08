@@ -13,7 +13,7 @@ function Usuarios() {
       <ul>
         {usuarios.map((usuario) => (
           <li key={usuario.id}>
-            <Link to={`/usuarios/${usuario.id}`}>{usuario.nombre}</Link>
+            <Link to={`/e4/usuarios/${usuario.id}`}>{usuario.nombre}</Link>
           </li>
         ))}
       </ul>

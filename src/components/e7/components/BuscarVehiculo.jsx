@@ -13,7 +13,7 @@ function BuscarVehiculo() {
 
   const handleBuscar = () => {
     if (placaSeleccionada) {
-      navigate(`/vehiculos/${placaSeleccionada}`);
+      navigate(`/e7/vehiculos/${placaSeleccionada}`);
     }
   };
 
@@ -33,4 +33,4 @@ function BuscarVehiculo() {
   );
 }
 
-export default BuscarVehiculo;  
+export default BuscarVehiculo;

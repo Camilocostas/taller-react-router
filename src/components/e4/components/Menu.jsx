@@ -1,18 +1,11 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Menu from "./Menu";
-import Usuarios from "./Usuarios";
-import UsuarioDetalle from "./UsuarioDetalle";
+import { Link } from "react-router-dom";
 
-function App() {
+function Menu() {
   return (
-    <>
-      <Menu />
-      <Routes>
-        <Route path="/" element={<Usuarios />} />
-        <Route path="/usuarios/:id" element={<UsuarioDetalle />} />
-      </Routes>
-    </>
+    <nav>
+      <Link to="/e4">Usuarios</Link>
+    </nav>
   );
 }
 
-export default App;
+export default Menu;

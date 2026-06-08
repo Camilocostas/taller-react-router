@@ -6,12 +6,12 @@ function Layout() {
       <header>
         <h1>Logo</h1>
         <nav>
-          <Link to="/">Home</Link> |{" "}
-          <Link to="/services">Services</Link> |{" "}
-          <Link to="/works">Works</Link> |{" "}
-          <Link to="/team">Team</Link> |{" "}
-          <Link to="/pricing">Pricing</Link> |{" "}
-          <Link to="/contact">Contact</Link>
+          <Link to="/e9">Home</Link> |{" "}
+          <Link to="/e9/services">Services</Link> |{" "}
+          <Link to="/e9/works">Works</Link> |{" "}
+          <Link to="/e9/team">Team</Link> |{" "}
+          <Link to="/e9/pricing">Pricing</Link> |{" "}
+          <Link to="/e9/contact">Contact</Link>
         </nav>
       </header>
       <main>

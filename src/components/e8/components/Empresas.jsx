@@ -7,7 +7,6 @@ const empresas = [
 
 function Empresas() {
   const { id } = useParams();
-  const empresa = empresas.find((e) => e.id === parseInt(id));
 
   if (!id) {
     return (
@@ -16,13 +15,15 @@ function Empresas() {
         <ul>
           {empresas.map((emp) => (
             <li key={emp.id}>
-              <Link to={`/empresas/${emp.id}`}>{emp.nombre}</Link>
+              <Link to={`/e8/empresas/${emp.id}`}>{emp.nombre}</Link>
             </li>
           ))}
         </ul>
       </div>
     );
   }
+
+  const empresa = empresas.find((e) => e.id === parseInt(id));
 
   if (!empresa) {
     return <h2>Empresa no encontrada</h2>;
@@ -31,7 +32,7 @@ function Empresas() {
   return (
     <div>
       <h2>{empresa.nombre}</h2>
-      <Link to="sedes">Ver sedes</Link>
+      <Link to={`/e8/empresas/${id}/sedes`}>Ver sedes</Link>
       <Outlet />
     </div>
   );

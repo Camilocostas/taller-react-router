@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Menu() {
     return (
     <nav>
-        <Link to="/">Lista</Link>
+        <Link to="/e2">Lista</Link>
     </nav>
     );
 }

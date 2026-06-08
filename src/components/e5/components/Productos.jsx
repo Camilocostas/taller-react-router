@@ -13,7 +13,7 @@ function Productos() {
       <ul>
         {productos.map((producto) => (
           <li key={producto.codigo}>
-            <Link to={`/productos/${producto.codigo}`}>{producto.nombre}</Link>
+            <Link to={`/e5/productos/${producto.codigo}`}>{producto.nombre}</Link>
           </li>
         ))}
       </ul>

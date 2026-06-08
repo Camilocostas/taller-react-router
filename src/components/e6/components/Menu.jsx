@@ -11,8 +11,8 @@ function Menu() {
     <nav>
       {ciudades.map((ciudad) => (
         <span key={ciudad.id}>
-          <Link to={`/ciudades/${ciudad.id}`}>{ciudad.nombre}</Link>{" "}
-          <Link to={`/ciudades/${ciudad.id}?modo=compacto`}>(compacto)</Link> |{" "}
+          <Link to={`/e6/ciudades/${ciudad.id}`}>{ciudad.nombre}</Link>{" "}
+          <Link to={`/e6/ciudades/${ciudad.id}?modo=compacto`}>(compacto)</Link> |{" "}
         </span>
       ))}
     </nav>
